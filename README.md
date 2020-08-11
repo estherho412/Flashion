@@ -24,16 +24,16 @@ This is to expand the training dataset in order to improve the performance and a
 
 #### Model Construction (Benchmarking Model)
 
-We adopted transfer learning for building the model. In particular, we use the state of the art model-VGG19 which was trained on more than a million images from the ImageNet database in the ImageNet Large-Scale Visual Recognition Challenge (ILSVRC).At the first attempt, we freeze the feature selection layers on VGG19 for the training.
+We adopted transfer learning for building the model. In particular, we used the state of the art model-VGG19 which was trained on more than a million images from the ImageNet database in the ImageNet Large-Scale Visual Recognition Challenge (ILSVRC). For our first attempt, we froze the feature selection layers on VGG19 for the training.
 
 #### Model Tuning
 
-We tuned the weights for a few more layers on the pre-trained model ,adjusted the learning rate of the ADAM optimizer, added a few more layers in the fully-connected classifier. The accuracy score improved few to ten points comparing to the benchmarking model, obtaining about 60% for each fashion attributes.
+We tuned the weights for a few more layers on the pre-trained model, adjusted the learning rate of the ADAM optimizer, added a few more layers in the fully-connected classifier. The accuracy score increased by a few to ten percent compared to the benchmarking model, obtained about 60% for each fashion attributes.
 
-#### Flask App Development and deployment
+#### Flask App Development and Deployment
 
 Our flask application allows user to upload the fashion photo they like and return suggested shopping websites with similar fashion items.
-If you are interested in the flask app, please leave a message to us.
+If you are interested in the flask app, please leave a message.
 
 
 

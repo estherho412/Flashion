@@ -7,7 +7,7 @@ Based on the predicted attributes classification, our AI-recommender will sugges
 
 Data Collection
 
->20K images with the following clothign attributes are scraped from several online shopping websites and Google
+Above 20K images with the following clothign attributes are scraped from several online shopping websites and Google
 Category - blazers, dresses, hoodies & sweatshirts, jacket & coats, jeans, knitwear & cardigans, pants, shorts, skirts, tops
 Pattern - checks, dots, floral, graphic, solid, stripes
 Color - black & white, blue, brown, green, light pink & beige, orange, purple, red & pink, yellow

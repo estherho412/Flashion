@@ -4,6 +4,8 @@
 Fashon attributes classification models are built on Convolutional Netural Networks utilizing VGG19 transfer learning.
 Based on the predicted attributes classification, our AI-recommender will suggest shopping websites with similar fashion items.
 
+![Group1-Flashion-Cover](https://user-images.githubusercontent.com/62921289/89899527-05537180-dc15-11ea-8ad9-d359c26a0ff4.png)
+
 
 Data Collection
 
